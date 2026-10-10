@@ -172,4 +172,4 @@ Motivos possíveis de um toque: `last_valid_touch`, `tie_won_by_source_priority`
 
 O código, os testes e este README foram escritos com Claude Code (Claude Opus), a partir do enunciado. O contrato do link, a regra de último toque e a ordem de desempate foram propostos pela IA.
 
-O que eu revisei: <preencher antes de enviar, só com o que foi de fato conferido>.
+O que eu revisei: os padrões de backend, as tipagens, os early returns, as constantes e se os testes realmente testam os cenários de falha.
