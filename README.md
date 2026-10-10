@@ -172,4 +172,6 @@ Motivos possíveis de um toque: `last_valid_touch`, `tie_won_by_source_priority`
 
 O código, os testes e este README foram escritos com Claude Code (Claude Opus), a partir do enunciado. O contrato do link, a regra de último toque e a ordem de desempate foram propostos pela IA.
 
+Verificação automática, rodada pela IA e não por mim: `npm test` passa com 27 testes em 2 arquivos e `npx tsc --noEmit` não acusa erro. Entre os testes estão "com dois links antes do cadastro, vence o mais recente", "vale no último instante da janela" e "o mesmo clique reaberto não cria outro toque nem muda o horário do primeiro".
+
 O que eu revisei: os padrões de backend, as tipagens, os early returns, as constantes e se os testes realmente testam os cenários de falha.
